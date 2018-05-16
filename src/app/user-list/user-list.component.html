@@ -1,0 +1,6 @@
+<div class="container">
+  <div *ngFor = "let model of listOfUsers">
+    <img src="{{model.avatar_url}}" alt="User Image" height="150" width="150">
+    <span>Name : {{model.login}}</span>
+  </div>
+</div>
